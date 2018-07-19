@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+/* div styles */
+.table{
+	display: table;
+	width: 50%;
+}
+.row {
+	display: table-row;
+}
+.cell {
+	display: table-cell;
+	padding: 3px 10px;
+}
+.body {
+	display: table-row-group;
+}
+/* body element styles */
+h1 {
+	font-family: 'Bitter';
+    font-size: 48px;
+    font-weight: bold;
+	color: #005c99;
+}
+h2 {
+	font-family: 'Bitter';
+    font-size: 30px;
+    font-weight: bold;
+	color: #0099ff
+}
+h3 {
+    color: #0A0A89;
+	font-family: "arial", sans-serif;
+    font-size: 20px;
+}
+p  {
+    color: #0A0A89;
+    font-family: "arial", sans-serif;
+    font-size: 20px;
+}
+a:link {
+    color: #0099ff;
+	font-family: 'Bitter';
+    font-size: 25px;
+    font-weight: bold;
+}
+a:visited {
+    color: #005c99;
+}
+a:hover {
+    color: #b3e0ff;
+}
+a:active {
+    color: #e6f5ff;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
